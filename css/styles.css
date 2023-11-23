@@ -9,6 +9,10 @@
     background-image: url("../images/wood.png");
     background-size: 50%;
 }
+#map{
+    background-image: url("../images/papyrus.jpg");
+    background-size: 100%;
+}
 .red-curtains {
 	background-image: url("../images/red-curtains.png");
 }
