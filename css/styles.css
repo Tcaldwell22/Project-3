@@ -152,6 +152,7 @@ p, ul{
 #Skills{
     padding-left: 5%;
 }
+
 /*Pg 2 exclusive*/
 #heading {
     display: flex;
@@ -233,4 +234,22 @@ p, ul{
     padding-bottom: 30%;
 
   }
-
+/* Pg 1 Media Queries*/
+@media only screen and (max-width: 720px) {
+    .page-pad li{
+        font-size: 28px;
+    }
+    #page-wrapper {
+        width: 95%;
+    }
+    #education li{
+        padding-left: 47px;
+        background-size: 39px;
+    }
+    #experience {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+  }
