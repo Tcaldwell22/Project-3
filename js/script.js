@@ -82,6 +82,22 @@ function initMap(){
   // Append the control to the DIV.
   centerControlDiv.appendChild(centerControl);
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+
+	var marker =  new google.maps.Marker({
+    position: {lat: 41.79500800987636, lng: -87.58632747826601},
+    map,
+	});
+
+	var contentString = '<h1>Museum of Science and Industry</h1><p>One of the first museums I ever went to.</p>';
+
+	var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  	});
+
+	google.maps.event.addListener(marker, 'click', function() {
+    map.setZoom(19);
+    infowindow.open(map, marker);
+  });
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);
