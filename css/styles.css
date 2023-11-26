@@ -237,7 +237,7 @@ p, ul{
 /* Pg 1 Media Queries*/
 @media only screen and (max-width: 720px) {
     .page-pad li{
-        font-size: 28px;
+        font-size: 22px
     }
     #page-wrapper {
         width: 95%;
@@ -251,5 +251,13 @@ p, ul{
     }
     h1 {
         font-size: 2em;
+    }
+  }
+  @media only screen and (max-width: 1220px) {
+    #experience {
+        width: 100%;
+    }
+    #Skills{
+        width: 100%;
     }
   }
