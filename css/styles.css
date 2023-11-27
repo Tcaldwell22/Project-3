@@ -226,6 +226,10 @@ p, ul{
 #mv3 {
     background: linear-gradient(0deg, rgb(29 232 129) 0%, rgba(10,112,62,1) 100%);
 }
+.mv iframe{
+    width: 60vw;
+}
+/* Map */
 #map {
     width: 50%;
     padding: 20%;
