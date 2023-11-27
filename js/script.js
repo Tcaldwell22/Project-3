@@ -16,8 +16,8 @@ function createCenterControl(map) {
   controlButton.style.margin = "8px 0 22px";
   controlButton.style.padding = "0 5px";
   controlButton.style.textAlign = "center";
-  controlButton.textContent = "Center Map";
-  controlButton.title = "Click to recenter the map";
+  controlButton.textContent = "View IIT tower";
+  controlButton.title = "Click to center the map to IIT tower";
   controlButton.type = "button";
   // Setup the click event listeners: simply set the map to IIT Tower.
   controlButton.addEventListener("click", () => {
